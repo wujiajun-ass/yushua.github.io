@@ -35,3 +35,18 @@ p {
 .light-green {
     background: linear-gradient(135deg, #b3ffb3, #99e699); /* 浅绿色 */
 }
+ button {
+    width: 200px; /* 设置按钮宽度 */
+    height: 50px; /* 设置按钮高度 */
+    font-size: 16px; /* 设置按钮文字大小 */
+    background-color: #007bff; /* 设置按钮背景色 */
+    color: white; /* 设置按钮文字颜色 */
+    border: none; /* 移除按钮边框 */
+    border-radius: 5px; /* 设置按钮圆角 */
+    cursor: pointer; /* 设置鼠标样式为手型 */
+  }
+  
+  /* 悬停时的样式 */
+  button:hover {
+    background-color: #0056b3; /* 更改背景色 */
+  }
